@@ -1,0 +1,45 @@
+1:C 22 Sep 2023 10:50:22.074 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 22 Sep 2023 10:50:22.078 * Redis version=7.2.1, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 22 Sep 2023 10:50:22.081 * Configuration loaded
+1:M 22 Sep 2023 10:50:22.083 * monotonic clock: POSIX clock_gettime
+1:M 22 Sep 2023 10:50:22.084 * Running mode=standalone, port=6379.
+1:M 22 Sep 2023 10:50:22.086 * Server initialized
+1:M 22 Sep 2023 10:50:22.091 * Creating AOF base file appendonly.aof.1.base.aof on server start
+1:M 22 Sep 2023 10:50:22.100 * Creating AOF incr file appendonly.aof.1.incr.aof on server start
+1:M 22 Sep 2023 10:50:22.102 * Ready to accept connections tcp
+1:M 22 Sep 2023 10:51:28.188 * Creating AOF incr file appendonly.aof.2.incr.aof on background rewrite
+1:M 22 Sep 2023 10:51:28.198 * Background append only file rewriting started by pid 30
+30:C 22 Sep 2023 10:51:28.205 * Successfully created the temporary AOF base file temp-rewriteaof-bg-30.aof
+30:C 22 Sep 2023 10:51:28.207 * Fork CoW for AOF rewrite: current 0 MB, peak 0 MB, average 0 MB
+1:M 22 Sep 2023 10:51:28.247 * Background AOF rewrite terminated with success
+1:M 22 Sep 2023 10:51:28.250 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-30.aof into appendonly.aof.2.base.aof
+1:M 22 Sep 2023 10:51:28.255 * Removing the history file appendonly.aof.1.incr.aof in the background
+1:M 22 Sep 2023 10:51:28.259 * Removing the history file appendonly.aof.1.base.aof in the background
+1:M 22 Sep 2023 10:51:28.264 * Background AOF rewrite finished successfully
+1:signal-handler (1695379918) Received SIGTERM scheduling shutdown...
+1:M 22 Sep 2023 10:51:58.886 * User requested shutdown...
+1:M 22 Sep 2023 10:51:58.889 * Calling fsync() on the AOF file.
+1:M 22 Sep 2023 10:51:58.892 # Redis is now ready to exit, bye bye...
+1:C 22 Sep 2023 10:51:59.311 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 22 Sep 2023 10:51:59.321 * Redis version=7.2.1, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 22 Sep 2023 10:51:59.322 * Configuration loaded
+1:M 22 Sep 2023 10:51:59.324 * monotonic clock: POSIX clock_gettime
+1:M 22 Sep 2023 10:51:59.326 * Running mode=standalone, port=6379.
+1:M 22 Sep 2023 10:51:59.327 * Server initialized
+1:M 22 Sep 2023 10:51:59.336 * DB loaded from base file appendonly.aof.2.base.aof: 0.001 seconds
+1:M 22 Sep 2023 10:51:59.340 * DB loaded from append only file: 0.007 seconds
+1:M 22 Sep 2023 10:51:59.342 * Opening AOF incr file appendonly.aof.2.incr.aof on server start
+1:M 22 Sep 2023 10:51:59.348 * Ready to accept connections tcp
+1:signal-handler (1695379937) Received SIGTERM scheduling shutdown...
+1:M 22 Sep 2023 10:52:17.371 * User requested shutdown...
+1:M 22 Sep 2023 10:52:17.373 * Calling fsync() on the AOF file.
+1:M 22 Sep 2023 10:52:17.375 # Redis is now ready to exit, bye bye...
+1:C 22 Sep 2023 10:52:17.911 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 22 Sep 2023 10:52:17.914 * Redis version=7.2.1, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 22 Sep 2023 10:52:17.916 * Configuration loaded
+1:M 22 Sep 2023 10:52:17.919 * monotonic clock: POSIX clock_gettime
+1:M 22 Sep 2023 10:52:17.922 * Running mode=standalone, port=6379.
+1:M 22 Sep 2023 10:52:17.924 * Server initialized
+1:M 22 Sep 2023 10:52:17.937 * Creating AOF base file appendonly.aof.1.base.rdb on server start
+1:M 22 Sep 2023 10:52:17.951 * Creating AOF incr file appendonly.aof.1.incr.aof on server start
+1:M 22 Sep 2023 10:52:17.953 * Ready to accept connections tcp
